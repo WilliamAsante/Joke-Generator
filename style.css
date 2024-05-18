@@ -8,7 +8,6 @@ body {
   height: 100vh;
   overflow: hidden;
   display: flex;
-  justify-content: center;
   align-items: center;
   background: #aa4b6b; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -26,7 +25,8 @@ body {
 }
 
 .wrapper {
-  width: 25vw;
+  max-width: 25vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,3 +64,5 @@ a:hover {
 a:active {
   transform: translateY(2px);
 }
+
+
